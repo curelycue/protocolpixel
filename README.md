@@ -25,6 +25,7 @@ There are two main ways that NounAsks enables Pixel DAO to acquire a Noun:
 - A Noun owner owner can call `swapNoun` to immediately transfer their Noun to the DAO and receive 1000 PIXEL. 
 - A Noun owner can call `createAsk` to list their Noun for sale. The owner asks for a certain ETH:PIXEL rate as well as some amount of PIXEL. If it is approved by governance, then anybody can contribute to filling the ask, and ultimately the DAO acquires the Noun and distributes a total of 1000 PIXEL to the owner and contributors.
 
+
  
 Note that a Noun owner that transfers their Noun to Pixel DAO via NounAsks *can not* automatically get their Noun back. Once Pixel DAO owns it, it's up to the DAO what they do with the Noun. The motivation for the project was for the DAO to vote on NounsDAO proposals with their Nouns in perpetuity.
 
