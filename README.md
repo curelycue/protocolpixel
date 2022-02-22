@@ -30,7 +30,6 @@ Note that a Noun owner that transfers their Noun to Pixel DAO via NounAsks *can 
 
 For example: @wag owns Noun #68 and values it at 1000 ETH. He wants to sell it, but he also wants to retain some NounsDAO voting power. He can call `createAsk(0, 1*10**18, 100*10**18)` meaning he would like to sell Noun #68 at 1 ETH per PIXEL, and he wants 100 PIXEL for himself. If governance approves this ask, then there will be a "PartyBuy" with 900 unallocated ETH remaining. Anybody can contribute until 900 ETH is hit. When the asking price is hit, Alice receives 900 ETH and 100 PIXEL, the DAO receives the Noun, and the contributors can claim their fair share of the remaining 900 PIXEL.
 
-See the NounAsks integration test to see a thorough example of how it works in code.
 
 # Governance and NounsDAO Proposals
 The governance system uses standard general-purpose openzeppelin governance contracts, so it is battle-tested and compatible with tools like Tally. In the interest of minimizing transaction fees, the DAO should do snapshot votes for each Nouns proposal to get a yes/no answer, and then a proposer can propose an onchain transaction which would submit that winning answer to NounsDAO contract on behalf of each Noun owned by the treasury.
