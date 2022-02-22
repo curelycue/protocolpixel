@@ -28,7 +28,7 @@ There are two main ways that NounAsks enables Pixel DAO to acquire a Noun:
  
 Note that a Noun owner that transfers their Noun to Pixel DAO via NounAsks *can not* automatically get their Noun back. Once Pixel DAO owns it, it's up to the DAO what they do with the Noun. The motivation for the project was for the DAO to vote on NounsDAO proposals with their Nouns in perpetuity.
 
-For example: @wag owns Noun #68 and values it at 1000 ETH. He wants to sell it, but he also wants to retain some NounsDAO voting power. He can call `createAsk(0, 1*10**18, 100*10**18)` meaning he would like to sell Noun #68 at 1 ETH per PIXEL, and he wants 100 PIXEL for himself. If governance approves this ask, then there will be a "PartyBuy" with 900 unallocated ETH remaining. Anybody can contribute until 900 ETH is hit. When the asking price is hit, Alice receives 900 ETH and 100 PIXEL, the DAO receives the Noun, and the contributors can claim their fair share of the remaining 900 PIXEL.
+For example: @4156 owns Noun #3 and values it at 1000 ETH. He wants to sell it, but he also wants to retain some NounsDAO voting power. He can call `createAsk(0, 1*10**18, 100*10**18)` meaning he would like to sell Noun #68 at 1 ETH per PIXEL, and he wants 100 PIXEL for himself. If governance approves this ask, then there will be a "PartyBuy" with 900 unallocated ETH remaining. Anybody can contribute until 900 ETH is hit. When the asking price is hit, Alice receives 900 ETH and 100 PIXEL, the DAO receives the Noun, and the contributors can claim their fair share of the remaining 900 PIXEL.
 
 
 # Governance and NounsDAO Proposals
