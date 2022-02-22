@@ -1,7 +1,7 @@
 # pixelDAO
 
 Pixel DAO aims to facilitate PartyBid-style collective ownership of Nouns.
-This repo contains v1 of the protocol.
+This lightpaper contains v1 of the protocol.
 
 ### Architecture
 
