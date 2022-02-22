@@ -37,7 +37,7 @@ The governance system uses standard general-purpose openzeppelin governance cont
 
 
 # Token
-There is a fixed supply of 110,000 PIXEL (enough to accommodate 100 Nouns) - 1000 PIXEL for each Noun and 10% intended for team, incentives, airdrops and grants. Only NounAsks will be able to distribute any of the PIXEL, so the vast majority of it will be locked for the foreseeable future. The DAO will likely lock the remaining 10% in a long-term vesting contract to ensure proper incentives.
+There is a fixed supply of 120,000 PIXEL (enough to accommodate 100 Nouns) - 1000 PIXEL for each Noun and 10% intended for team, incentives, airdrops and grants. Only NounAsks will be able to distribute any of the PIXEL, so the vast majority of it will be locked for the foreseeable future. The DAO will likely lock the remaining 20% in a long-term vesting contract to ensure proper incentives.
 
 
 *But much more still TBD *
