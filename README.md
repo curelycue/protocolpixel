@@ -19,7 +19,7 @@ Pixel
 NounAsks.sol
 ```
 
-# nounAsks Mechanics
+# NounAsks Mechanics
 
 There are two main ways that NounAsks enables Pixel DAO to acquire a Noun: 
 - A Noun owner owner can call `swapNoun` to immediately transfer their Noun to the DAO and receive 1000 PIXEL. 
