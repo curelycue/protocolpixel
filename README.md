@@ -3,6 +3,7 @@
 Pixel DAO aims to facilitate PartyBid-style collective ownership of Nouns.
 This lightpaper contains v1 of the protocol.
 
+
 ### Architecture
 
 ```
