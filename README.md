@@ -1,7 +1,19 @@
-# pixelDAO
+# Sample Hardhat Project
 
-Pixel DAO aims to facilitate PartyBid-style collective ownership of Nouns.
-This lightpaper contains v1 of the protocol.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
+# pixel protocol
+
+Pixel Protocol aims to facilitate PartyBid-style collective ownership of Nouns.
 
 
 ### Architecture
@@ -17,7 +29,7 @@ PixelGovernor
 Pixel
 
 // Party-buy Nouns
-NounAsks.sol
+NounsAsks.sol
 ```
 
 # NounAsks Mechanics
@@ -39,6 +51,5 @@ The governance system uses standard general-purpose openzeppelin governance cont
 
 # Token
 There is a fixed supply of 120,000 PIXEL (enough to accommodate 100 Nouns) - 1000 PIXEL for each Noun and 20% intended for team, incentives, airdrops and grants. Only NounAsks will be able to distribute any of the PIXEL, so the vast majority of it will be locked for the foreseeable future. The DAO will likely lock the remaining 20% in a long-term vesting contract to ensure proper incentives.
-
 
 *But much more still TBD *
