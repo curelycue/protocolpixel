@@ -7,7 +7,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
-# pixel protocol
+# Pixel Protocol
 
 Pixel Protocol aims to facilitate PartyBid-style collective ownership of Nouns.
 
