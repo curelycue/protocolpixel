@@ -9,7 +9,7 @@
 |_|                                    |_|                 
 
                                                                                                                                          ~~                        ~~
-Author: Eduard Ioan Stoica 
+Author: waterdrops. 
 Credit: adapted from PartyBid by Anna Carroll
 */
 
